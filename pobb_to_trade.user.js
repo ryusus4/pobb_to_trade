@@ -63,7 +63,7 @@
         q = `{"query":{"stats":[{"type":"and","filters":[${stat_filters}]}]}}`
       }
       if (q) {
-        window.open('https://jp.pathofexile.com/trade/search/Settlers?q=' + q)
+        window.open('https://jp.pathofexile.com/trade/search/Phrecia?q=' + q)
       }
 
       event.stopPropagation();
